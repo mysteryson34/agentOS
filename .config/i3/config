@@ -1,0 +1,23 @@
+########################################
+# i3-gaps configuration ################
+########################################
+
+for_window [class="^.*"] border pixel 0
+
+gaps inner 16
+gaps outer 20
+
+########################################
+######################## startup tasks #
+########################################
+
+exec --no-startup-id lxpanel &
+exec --no-startup-id nm-applet &
+exec --no-startup-id blueman-applet &
+exec --no-startup-id nitrogen --restore
+exec --no-startup-id compton &
+exec --no-startup-id volumeicon-alsa &
+
+########################################
+# window manager settings ##############
+########################################
