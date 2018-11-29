@@ -16,7 +16,7 @@ exec --no-startup-id nm-applet &
 exec --no-startup-id blueman-applet &
 exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id "killall -q compton; compton --config ~/.config/i3/compton.conf"
-exec --no-startup-id volumeicon-alsa &
+exec --no-startup-id volumeicon &
 
 ########################################
 # window manager settings ##############
